@@ -40,3 +40,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 Netflix Interface Clone.
 Use fake Payment to test the app.
 Here are some screenshots of the app.
+
+<img width="958" alt="Screenshot 2023-04-11 171829" src="https://user-images.githubusercontent.com/113479474/231541832-6c9a6dab-a117-4fd1-85f9-2c0ec1847c33.png">
+
+<img width="959" alt="Screenshot 2023-04-11 171901" src="https://user-images.githubusercontent.com/113479474/231541943-4af71e56-f5f8-47d4-a439-d92274d63100.png">
+
+<img width="959" alt="Screenshot 2023-04-11 171922" src="https://user-images.githubusercontent.com/113479474/231542022-23fbd5d6-e252-45d6-b4f8-fdb6ce48bc23.png">
+
+<img width="956" alt="Screenshot 2023-04-11 171946" src="https://user-images.githubusercontent.com/113479474/231542120-65b62cd8-7e45-462f-b109-df91697a7ff9.png">
+
+<img width="959" alt="Screenshot 2023-04-11 171901" src="https://user-images.githubusercontent.com/113479474/231542190-fb749970-8cef-4f04-96ea-27a15ae5c166.png">
+
