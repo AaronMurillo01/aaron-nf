@@ -32,6 +32,7 @@ function Header() {
           width={100}
           height={100}
           className="cursor-pointer object-contain"
+          alt=""
         />
 
         <BasicMenu />
