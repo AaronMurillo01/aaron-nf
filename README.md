@@ -49,5 +49,5 @@ Here are some screenshots of the app.
 
 <img width="956" alt="Screenshot 2023-04-11 171946" src="https://user-images.githubusercontent.com/113479474/231542120-65b62cd8-7e45-462f-b109-df91697a7ff9.png">
 
-<img width="959" alt="Screenshot 2023-04-11 171901" src="https://user-images.githubusercontent.com/113479474/231542190-fb749970-8cef-4f04-96ea-27a15ae5c166.png">
+<img width="952" alt="Screenshot 2023-04-11 172013" src="https://user-images.githubusercontent.com/113479474/231542459-b4361e57-4231-45b5-8532-b1bd546ca9d6.png">
 
