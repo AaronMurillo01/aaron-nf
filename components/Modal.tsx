@@ -27,7 +27,7 @@ import { Element, Genre, Movie } from "../typings";
 
 function Modal() {
   const [showModal, setShowModal] = useRecoilState(modalState);
-  const [movie, setMovie] = useRecoilState(movieState);
+  const [movie] = useRecoilState(movieState);
   const [trailer, setTrailer] = useState("");
   const [genres, setGenres] = useState<Genre[]>([]);
   const [muted, setMuted] = useState(true);
@@ -131,7 +131,7 @@ function Modal() {
     <MuiModal
       open={showModal}
       onClose={handleClose}
-      className="fixex !top-7 left-0 right-0 z-50 mx-auto w-full max-w-5xl overflow-hidden overflow-y-scroll rounded-md scrollbar-hide"
+      className="fixes !top-7 left-0 right-0 z-50 mx-auto w-full max-w-5xl overflow-hidden overflow-y-scroll rounded-md scrollbar-hide"
     >
       <>
         <Toaster position="bottom-center" />
