@@ -1,22 +1,21 @@
-import { BellIcon, SearchIcon } from "@heroicons/react/solid";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { BsSearch, BsFillBellFill } from "react-icons/bs";
 import useAuth from "../hooks/useAuth";
 import BasicMenu from "./BasicMenu";
 
 function Header() {
-  const [isScrolled, setIsScrolled] = useState(false);
-  useAuth();
+  const [isScrolled, setisScrolled] = useState(false);
+  const { logout } = useAuth();
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
-        setIsScrolled(true);
+        setisScrolled(true);
       } else {
-        setIsScrolled(false);
+        setisScrolled(false);
       }
     };
-
     window.addEventListener("scroll", handleScroll);
 
     return () => {
@@ -32,7 +31,6 @@ function Header() {
           width={100}
           height={100}
           className="cursor-pointer object-contain"
-          alt={""}
         />
 
         <BasicMenu />
@@ -47,9 +45,9 @@ function Header() {
       </div>
 
       <div className="flex items-center space-x-4 text-sm font-light">
-        <SearchIcon className="hidden h-6 w-6 sm:inline" />
+        <BsSearch className="hidden sm:inline h-6 w-6" />
         <p className="hidden lg:inline">Kids</p>
-        <BellIcon className="h-6 w-6" />
+        <BsFillBellFill className="h-6 w-6" />
         <Link href="/account">
           <img
             src="https://rb.gy/g1pwyx"
